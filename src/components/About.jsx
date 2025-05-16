@@ -97,7 +97,7 @@ const About = ({isDarkMode}) => {
                                 <motion.li
                             whileHover={{scale: 1.05}}
                             className='border-[0.5px] border-gray-400 rounded-xl p-6 
-                            cursor-pointer bg-lightHover/90 -translate-y-1 
+                            cursor-pointer bg-lightHover/95 dark:bg-darkHover/95 -translate-y-1 
                             duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/95'
                            >
                                 {/* <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3' /> */}

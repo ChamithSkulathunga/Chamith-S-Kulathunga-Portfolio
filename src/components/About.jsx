@@ -1,4 +1,4 @@
-import { assets, infoList, toolsData } from '@/assets/assets'
+import { assets, certificateList, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
@@ -69,12 +69,53 @@ const About = ({isDarkMode}) => {
                         ))
                     }
                 </motion.ul>
-                
+
+
+
                 <motion.h4
                   initial={{y: 20, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.5, delay: 1.3}}
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'
+                className='my-6 mt-8 text-xl text-gray-700 font-Ovo dark:text-white/80'
+                >Certificates</motion.h4>
+
+
+                <motion.ul 
+                    initial={{opacity: 0}}
+        whileInView={{opacity: 1}}
+        transition={{duration: 0.8, delay: 1}}
+                className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl '>
+                    {
+                        certificateList.map(({ bgImage, title, link, description}, index)=>(
+                            <a
+                             key={index}
+                            target='_black' href={link}
+  className='aspect-square bg-no-repeat bg-cover bg-center m-2 rounded-lg relative cursor-pointer group '
+  style={{ backgroundImage: `url(${bgImage})`, opacity:`10` }}
+>
+
+                                <motion.li
+                            whileHover={{scale: 1.05}}
+                            className='border-[0.5px] border-gray-400 rounded-xl p-6 
+                            cursor-pointer bg-lightHover/90 -translate-y-1 
+                            duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/95'
+                           >
+                                {/* <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3' /> */}
+                               <h3 className='my-4  group-hover:visible font-semibold text-gray-700 dark:text-white'> {title}</h3>
+                                <p className='  group-hover:visible text-gray-600 text-sm dark:text-white/80'>{description}</p>
+                            </motion.li>
+                            </a>
+                        ))
+                    }
+                </motion.ul>
+                
+                
+
+                <motion.h4
+                  initial={{y: 20, opacity: 0}}
+        whileInView={{y: 0, opacity: 1}}
+        transition={{duration: 0.5, delay: 1.3}}
+                className='my-6 text-xl text-gray-700 font-Ovo dark:text-white/80'
                 >Languages, frameworks and tools</motion.h4>
 
 

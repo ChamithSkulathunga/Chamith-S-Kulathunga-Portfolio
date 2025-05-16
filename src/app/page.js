@@ -36,42 +36,25 @@ export default function Home() {
 
 
 
-  //   const [showTopButton, setShowTopButton] = useState(false)
+const [showTopButton, setShowTopButton] = useState(false);
 
-  // useEffect(() => {
-  //   AOS.init({
-  //     offset: 100,
-  //     duration: 500,
-  //     easing: "ease-in-sine",
-  //     delay: 100,
-  //   });
-  //   AOS.refresh();
+useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 300) {
+      setShowTopButton(true);
+    } else {
+      setShowTopButton(false);
+    }
+  };
 
-  //   // Show button when scrolled down
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 300) {
-  //       setShowTopButton(true);
-  //     } else {
-  //       setShowTopButton(false);
-  //     }
-  //   };
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
-  //   window.addEventListener("scroll", handleScroll);
 
-  //   // Clean up
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-  // // Scroll to top function
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
-
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
 
 
@@ -86,16 +69,20 @@ export default function Home() {
      <Footer isDarkMode={isDarkMode} />
 
 
-    {/* Back to Top Button */}
-        {/* {showTopButton && (
-          <button
-            onClick={scrollToTop}
-            className="fixed bottom-6 right-6 bg-primary hover:bg-secondary text-white p-3 rounded-full shadow-lg z-50 transition duration-300"
-          >
-            <p>Top</p>
-          </button>
-        )} */}
-
+{showTopButton && (
+  <button
+    onClick={scrollToTop}
+    className="fixed bottom-6 right-6 
+               bg-primary hover:bg-secondary 
+               dark:bg-gray-700 dark:hover:bg-gray-600 
+               text-black dark:text-white 
+               p-3 rounded-full shadow-lg z-50 
+               transition duration-300"
+    aria-label="Back to Top"
+  >
+    ↑
+  </button>
+)}
 
 
    </>

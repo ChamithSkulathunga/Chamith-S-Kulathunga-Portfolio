@@ -49,7 +49,7 @@ const Work = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.9 }}
-        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 dark:text-black'
+        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5  dark:text-black'
       >
         {workData.slice(0, visibleItems).map((project, index) => (
           <a
@@ -59,7 +59,7 @@ const Work = ({ isDarkMode }) => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
            
-            className='aspect-square bg-no-repeat bg-cover bg-center m-5 rounded-lg relative cursor-pointer group hover:shadow-black dark:hover:shadow-white'
+            className='aspect-square bg-no-repeat bg-cover bg-center m-2 rounded-lg relative border cursor-pointer group hover:shadow-black dark:hover:shadow-white'
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
             <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>

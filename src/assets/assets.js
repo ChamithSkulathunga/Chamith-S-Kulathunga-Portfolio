@@ -112,12 +112,16 @@ export const assets = {
 // ]
 
 export const workData = [
-  { title: "ZestRice-Restaurant  ", description: "Web Development", bgImage: "/work-1.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "ZestRice-Restaurant", description: "Web Development", bgImage: "/work-1.png" , Link:"https://zestrice-restaurant.netlify.app/" },
   { title: "SalonGlow", description: "Web Development", bgImage: "/work-2.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "Ceylon College of Physicians Website", description: "WordPress project", bgImage: "/work-8.png" , Link:"https://ccp.lk/" },
+  { title: "Sri Lanka Society of Nephrology Website", description: "WordPress project", bgImage: "/work-9.png" , Link:"https://slson.lk/" },
+  { title: "Opara Organic Website", description: "WordPress project", bgImage: "/work-10.png" , Link:"https://organiccinnamonexporter.com/" },
   { title: "Online Fashion Store", description: "Graphic Design", bgImage: "/work-3.png" , Link:"https://www.behance.net/gallery/191404407/Online-Fashion-Store" },
+  { title: "Restaurant POS  ", description: "Web Development", bgImage: "/work-7.png" , Link:"https://zestrice-restaurant-pos-system.netlify.app/" },
   { title: "V-Hire Taxi", description: "UI/UX Design", bgImage: "/work-4.png" , Link:"https://www.behance.net/gallery/191071777/V-Hire-Taxi-Service-Mobile-App-Interface-Designs" },
   { title: "Chefs Touch Catering Service", description: "Graphic Design (Logo)", bgImage: "/work-5.png" , Link:"https://www.behance.net/gallery/220061385/Chefs-Touch-Catering-Service-Logo-Design" },
-  // { title: "WordPress project", description: "CMS Website", bgImage: "/images/img5.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "Students Management System ", description: "Web Development (MERN)", bgImage: "/work-6.png" , Link:"https://students-management-system-mern-stack.netlify.app/" },
   // { title: "Figma Design", description: "UI Prototyping", bgImage: "/images/img6.png" , Link:"https://zestrice-restaurant.netlify.app/" },
 ];
 
@@ -161,6 +165,53 @@ export const infoList = [
     description: 'Worked on 10+ real-world web projects',
   },
 ];
+
+
+export const certificateList = [
+  {
+    title: 'UI/UX Design Certificate',
+    description: 'Completed UI/UX Fundamentals for Beginners (Sinhala) - eLearning.lk, Batch 03.',
+    bgImage: '/eLearningUIUX.jpg',
+    link: 'https://media.licdn.com/dms/image/v2/D562DAQG0O3xS7atL5Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1724134663784?e=1747994400&v=beta&t=3jB4vOrVEokpyTfOxvU5WVWB-lxc6eUpmJDOK2pdGf4',
+  },
+  {
+    title: 'Canvas Credentials (Badge)',
+    description: 'Earned badge for UI/UX Fundamentals course by eLearning.lk, Batch 03.',
+    bgImage: '/badge.jpg',
+    link: 'https://media.licdn.com/dms/image/v2/D562DAQG0O3xS7atL5Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1724134663784?e=1747994400&v=beta&t=3jB4vOrVEokpyTfOxvU5WVWB-lxc6eUpmJDOK2pdGf4',
+  },
+  {
+    title: 'Virtual Internship - UI/UX',
+    description: 'Completed CodSoft Virtual Internship in UI/UX Design with practical tasks.',
+    bgImage: '/codesoft.png',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1635555452162/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
+  },
+  {
+    title: 'Python for Beginners',
+    description: 'Completed beginner-level Python course by University of Moratuwa.',
+    bgImage: '/moratuwaPython.png',
+    link: '',
+  },
+  {
+    title: 'WordPress Certificate Course',
+    description: 'Completed WordPress development course at DP Education IT Campus.',
+    bgImage: '/wpCourse.png',
+    link: '',
+  },
+  {
+    title: 'React Certificate Course',
+    description: 'Completed React development course at DP Education IT Campus.',
+    bgImage: '/reactCourse.png',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1746730461844/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
+  },
+];
+
+
+
+
+
+
+
 
 export const toolsData = [
     assets.html, assets.css, assets.javascript, assets.reactImg, assets.wordpress, assets.tailwind , assets.mongodb, assets.figma, assets.git

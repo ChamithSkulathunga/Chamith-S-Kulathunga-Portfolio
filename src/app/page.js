@@ -31,6 +31,50 @@ export default function Home() {
       localStorage.theme = '';
     }
   },[isDarkMode])
+
+
+
+
+
+  //   const [showTopButton, setShowTopButton] = useState(false)
+
+  // useEffect(() => {
+  //   AOS.init({
+  //     offset: 100,
+  //     duration: 500,
+  //     easing: "ease-in-sine",
+  //     delay: 100,
+  //   });
+  //   AOS.refresh();
+
+  //   // Show button when scrolled down
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 300) {
+  //       setShowTopButton(true);
+  //     } else {
+  //       setShowTopButton(false);
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   // Clean up
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+
+  // // Scroll to top function
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
+
+
+
+
   return (
    <>
      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
@@ -40,6 +84,20 @@ export default function Home() {
      <Work isDarkMode={isDarkMode} />
      <Contact isDarkMode={isDarkMode} />
      <Footer isDarkMode={isDarkMode} />
+
+
+    {/* Back to Top Button */}
+        {/* {showTopButton && (
+          <button
+            onClick={scrollToTop}
+            className="fixed bottom-6 right-6 bg-primary hover:bg-secondary text-white p-3 rounded-full shadow-lg z-50 transition duration-300"
+          >
+            <p>Top</p>
+          </button>
+        )} */}
+
+
+
    </>
   );
 }

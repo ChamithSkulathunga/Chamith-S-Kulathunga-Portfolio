@@ -88,28 +88,39 @@ export const assets = {
     right_arrow_bold_dark
 };
 
+// export const workData = [
+//     {
+//         title: 'Frontend project',
+//         description: 'Web Development',
+//         bgImage: '/work-1.png',
+//     },
+//     {
+//         title: 'Mobile Development',
+//         description: 'Mobile App',
+//         bgImage: '/work-2.png',
+//     },
+//     {
+//         title: 'Graphic designing',
+//         description: 'Graphic Design',
+//         bgImage: '/work-3.png',
+//     },
+//     {
+//         title: 'UI/UX designing',
+//         description: 'UI/UX Design',
+//         bgImage: '/work-4.png',
+//     },
+// ]
+
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Development',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Mobile Development',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Graphic designing',
-        description: 'Graphic Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-]
+  { title: "ZestRice-Restaurant  ", description: "Web Development", bgImage: "/work-1.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "SalonGlow", description: "Web Development", bgImage: "/work-2.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "Online Fashion Store", description: "Graphic Design", bgImage: "/work-3.png" , Link:"https://www.behance.net/gallery/191404407/Online-Fashion-Store" },
+  { title: "V-Hire Taxi", description: "UI/UX Design", bgImage: "/work-4.png" , Link:"https://www.behance.net/gallery/191071777/V-Hire-Taxi-Service-Mobile-App-Interface-Designs" },
+  { title: "Chefs Touch Catering Service", description: "Graphic Design (Logo)", bgImage: "/work-5.png" , Link:"https://www.behance.net/gallery/220061385/Chefs-Touch-Catering-Service-Logo-Design" },
+  // { title: "WordPress project", description: "CMS Website", bgImage: "/images/img5.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+  // { title: "Figma Design", description: "UI Prototyping", bgImage: "/images/img6.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+];
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web development', description: 'Web development is the process of building, programming...', link: '' },

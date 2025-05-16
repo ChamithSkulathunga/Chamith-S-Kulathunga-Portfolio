@@ -11,7 +11,7 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio - Chamith S Kulathunga",
-  description: "Explore the portfolio of S.K. Chamith Sadeepa Kulathunga, an ICT undergraduate skilled in UI/UX design and front-end development. With hands-on experience at Creative-2 Pvt Ltd, CodSoft, and various web projects using React, Figma, WordPress, and more, Chamith showcases a passion for technology, creativity, and self-learning."
+  description: "Explore the portfolio of Chamith Sadeepa Kulathunga, an ICT undergraduate skilled in UI/UX design and front-end development."
 };
 
 export default function RootLayout({ children }) {

@@ -35,7 +35,7 @@ module.exports = {
         },
       },
       animation: {
-         float: 'float 20s linear infinite',
+         float: 'float 40s linear infinite',
        
       },
       

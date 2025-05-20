@@ -1,7 +1,7 @@
 export const circles = Array.from({ length: 25 }, (_, i) => {
   const size = Math.floor(Math.random() * 2) + 5; // 10px to 30px
   const left = Math.random() * 100;
-  const delay = Math.random() * 140;
+  const delay = Math.random() * 50;
 
   return (
     <div

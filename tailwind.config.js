@@ -26,20 +26,20 @@ module.exports = {
       gridTemplateColumns: {
         auto: 'repeat(auto-fit, minmax(200px, 1fr))',
       },
+
+
+      keyframes: {
+        float: {
+          '0%': { transform: 'translateY(0)', opacity: '0.5' },
+          '100%': { transform: 'translateY(-1000px)', opacity: '0' },
+        },
+      },
+      animation: {
+         float: 'float 20s linear infinite',
+       
+      },
       
-      // keyframes: {
-      //   typing: {
-      //     '0%': { width: '0%', visibility: 'hidden' },
-      //     '100%': { width: '100%' },
-      //   },
-      //   blink: {
-      //     '50%': { borderColor: 'transparent' },
-      //     '100%': { borderColor: 'white' },
-      //   },
-      // },
-      // animation: {
-      //   typing: 'typing 2s steps(20) infinite alternate, blink 0.7s infinite',
-      // },
+     
 
     },
   },

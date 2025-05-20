@@ -10,6 +10,7 @@ import Work from "@/components/Work";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
+import {circles} from "./circles.js"
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -60,6 +61,12 @@ const scrollToTop = () => {
 
   return (
    <>
+
+     {/* Background animation */}
+  <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+    {circles}
+  </div>
+
      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
      <Header isDarkMode={isDarkMode} />
      <About isDarkMode={isDarkMode} />

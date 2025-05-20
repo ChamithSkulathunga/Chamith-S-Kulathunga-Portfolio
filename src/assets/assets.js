@@ -112,6 +112,7 @@ export const assets = {
 // ]
 
 export const workData = [
+  { title: "LuxeLoom - Furniture ", description: "Web Development ", bgImage: "/work-11.png" , Link:"https://luxeloom-furniture.netlify.app/" },
   { title: "ZestRice-Restaurant", description: "Web Development", bgImage: "/work-1.png" , Link:"https://zestrice-restaurant.netlify.app/" },
   { title: "SalonGlow", description: "Web Development", bgImage: "/work-2.png" , Link:"https://zestrice-restaurant.netlify.app/" },
   { title: "Ceylon College of Physicians Website", description: "WordPress project", bgImage: "/work-8.png" , Link:"https://ccp.lk/" },

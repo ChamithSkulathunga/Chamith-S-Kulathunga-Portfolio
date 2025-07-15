@@ -112,6 +112,7 @@ export const assets = {
 // ]
 
 export const workData = [
+  { title: "BlogNest - Blogs website ", description: "Web Development ", bgImage: "/work-14.png" , Link:"https://webblognest.netlify.app/" },
   { title: "eMartX - Fashion Store ", description: "Web Development ", bgImage: "/work-12.png" , Link:"https://emartx.netlify.app/" },
   { title: "HavenHue - Real Estate  ", description: "Web Development ", bgImage: "/work-13.png" , Link:"https://havenhue.netlify.app/" },
   { title: "LuxeLoom - Furniture ", description: "Web Development ", bgImage: "/work-11.png" , Link:"https://luxeloom-furniture.netlify.app/" },

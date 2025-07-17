@@ -176,13 +176,13 @@ export const certificateList = [
     title: 'UI/UX Design Certificate',
     description: 'Completed UI/UX Fundamentals for Beginners (Sinhala) - eLearning.lk, Batch 03.',
     bgImage: '/eLearningUIUX.jpg',
-    link: 'https://media.licdn.com/dms/image/v2/D562DAQG0O3xS7atL5Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1724134663784?e=1747994400&v=beta&t=3jB4vOrVEokpyTfOxvU5WVWB-lxc6eUpmJDOK2pdGf4',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1724134703749/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
   },
   {
     title: 'Canvas Credentials (Badge)',
     description: 'Earned badge for UI/UX Fundamentals course by eLearning.lk, Batch 03.',
     bgImage: '/badge.jpg',
-    link: 'https://media.licdn.com/dms/image/v2/D562DAQG0O3xS7atL5Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1724134663784?e=1747994400&v=beta&t=3jB4vOrVEokpyTfOxvU5WVWB-lxc6eUpmJDOK2pdGf4',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1724331306337/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
   },
   {
     title: 'Virtual Internship - UI/UX',
@@ -194,13 +194,13 @@ export const certificateList = [
     title: 'Python for Beginners',
     description: 'Completed beginner-level Python course by University of Moratuwa.',
     bgImage: '/moratuwaPython.png',
-    link: '',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1635544634685/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
   },
   {
     title: 'WordPress Certificate Course',
     description: 'Completed WordPress development course at DP Education IT Campus.',
     bgImage: '/wpCourse.png',
-    link: '',
+    link: 'https://www.linkedin.com/in/chamith-sadeepa-kulathunga-702348196/details/certifications/1745292418819/single-media-viewer/?profileId=ACoAAC34AfIBIEnkjShSNVQq9HviFFiMVQkX9Ws',
   },
   {
     title: 'React Certificate Course',

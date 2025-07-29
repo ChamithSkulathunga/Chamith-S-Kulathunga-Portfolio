@@ -142,7 +142,7 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: 'BSc (Hons) in ICT - University of Jaffna (Vavuniya Campus)',
+    description: 'BICT(Hons) - University of Jaffna (Vavuniya Campus)',
   },
     {
     icon: assets.edu_icon,
@@ -154,13 +154,13 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: 'Experience ',
-    description: 'Creative-2 (Pvt) Ltd. - (UI/UX Design & fontend Developer Internship)',
+    description: 'UI/UX Designer & Front-End Developer Internship – Creative-2 (Pvt) Ltd',
   },
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: 'Experience ',
-    description: 'CodSoft Virtual - (UI/UX Design Internship)',
+    description: 'UI/UX Design Internship (Virtual) at CodSoft',
   },
   {
     icon: assets.project_icon,

@@ -28,11 +28,9 @@ const Services = ({isDarkMode}) => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.5, delay: 0.7}}
         className='max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-center'>
-<<<<<<< HEAD
-          I specialize in UI/UX design and front-end development using tools like Figma, React, and WordPress. I create responsive, user-friendly websites, redesign existing sites, and develop web interfaces tailored to client needs. With real-world experience, I deliver modern, effective digital solutions.
-=======
+
          I am a graphic designer, web developer and UI/UX specialist. I make creative designs with Adobe Illustrator, Photoshop and InDesign. I build responsive and easy to use websites with React, WordPress and Figma. I can bring real-world projects, internship experience and a publications company to the table to create hands-on, modern and successful digital solutions.
->>>>>>> c1d51ae (update)
+
           </motion.p>
     
         <motion.div

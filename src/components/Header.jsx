@@ -52,11 +52,8 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-<<<<<<< HEAD
-           I am an undergraduate student with a solid grasp of various programming languages, aiming to become a Web Developer. Passionate about self-directed learning, I continuously acquire new skills and stay updated with industry trends to create innovative web experiences
-=======
            I am a graduate with knowledge of web development, programming, UI/UX, and graphic design. I enjoy learning new skills, staying up to date with new technologies, and creating user-friendly websites and creative digital designs.
->>>>>>> c1d51ae (update)
+
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             

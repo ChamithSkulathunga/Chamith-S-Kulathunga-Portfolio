@@ -46,11 +46,7 @@ const About = ({ isDarkMode }) => {
                     transition={{ duration: 0.6, delay: 0.8 }}
                     className='flex-1 '>
                     <p className='mb-10 max-w-2xl font-Ovo'>
-<<<<<<< HEAD
-                        I'm Chamith Sadeepa Kulathunga, an ICT undergraduate with a passion for UI/UX design and front-end development. I’ve gained hands-on experience through internships and real-world projects using React, WordPress, and Figma. I enjoy learning new skills and creating user-friendly digital solutions.
-=======
 I am Chamith Sadeepa Kulathunga an ICT graduate who is keen on web development UI/UX and graphic design. I have had practical experience in working in a publications company, and through real world projects and internships. I am experienced in working with React, Wordpress, Figma, Adobe Illustrator, Photoshop and Indesign. I love to acquire new skills and make user pleasant websites and creative digital designs. This keeps the paragraph succinct, and emphasizes your experience in both technical and graphic design.
->>>>>>> c1d51ae (update)
                     </p>
 
                     <motion.ul

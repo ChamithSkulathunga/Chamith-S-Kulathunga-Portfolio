@@ -112,6 +112,7 @@ export const assets = {
 // ]
 
 export const workData = [
+<<<<<<< HEAD
   { title: "BlogNest - Blogs website ", description: "Web Development ", bgImage: "/work-14.png" , Link:"https://webblognest.netlify.app/" },
   { title: "eMartX - Fashion Store ", description: "Web Development ", bgImage: "/work-12.png" , Link:"https://emartx.netlify.app/" },
   { title: "HavenHue - Real Estate  ", description: "Web Development ", bgImage: "/work-13.png" , Link:"https://havenhue.netlify.app/" },
@@ -127,6 +128,23 @@ export const workData = [
   { title: "Chefs Touch Catering Service", description: "Graphic Design (Logo)", bgImage: "/work-5.png" , Link:"https://www.behance.net/gallery/220061385/Chefs-Touch-Catering-Service-Logo-Design" },
   { title: "Students Management System ", description: "Web Development (MERN)", bgImage: "/work-6.png" , Link:"https://students-management-system-mern-stack.netlify.app/" },
   // { title: "Figma Design", description: "UI Prototyping", bgImage: "/images/img6.png" , Link:"https://zestrice-restaurant.netlify.app/" },
+=======
+  { title: "BlogNest - Blogs website ", description: "Web Development ", bgImage: "/work-14.png" ,   category: "development", Link:"https://webblognest.netlify.app/" },
+  { title: "eMartX - Fashion Store ", description: "Web Development ", bgImage: "/work-12.png" ,   category: "development", Link:"https://emartx.netlify.app/" },
+  { title: "HavenHue - Real Estate  ", description: "Web Development ", bgImage: "/work-13.png" ,   category: "development", Link:"https://havenhue.netlify.app/" },
+  { title: "LuxeLoom - Furniture ", description: "Web Development ", bgImage: "/work-11.png" ,   category: "development", Link:"https://luxeloom-furniture.netlify.app/" },
+  { title: "ZestRice-Restaurant", description: "Web Development", bgImage: "/work-1.png" ,   category: "development", Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "SalonGlow", description: "Web Development", bgImage: "/work-2.png" ,   category: "development", Link:"https://zestrice-restaurant.netlify.app/" },
+  { title: "Ceylon College of Physicians Website", description: "WordPress project", bgImage: "/work-8.png" ,   category: "development", Link:"https://ccp.lk/" },
+  { title: "Sri Lanka Society of Nephrology Website", description: "WordPress project", bgImage: "/work-9.png" ,   category: "development", Link:"https://slson.lk/" },
+  { title: "Opara Organic Website", description: "WordPress project", bgImage: "/work-10.png" ,   category: "development", Link:"https://organiccinnamonexporter.com/" },
+  { title: "Online Fashion Store", description: "Graphic Design", bgImage: "/work-3.png" ,   category: "development", Link:"https://www.behance.net/gallery/191404407/Online-Fashion-Store" },
+  { title: "Restaurant POS  ", description: "Web Development", bgImage: "/work-7.png" ,   category: "development", Link:"https://zestrice-restaurant-pos-system.netlify.app/" },
+  { title: "V-Hire Taxi", description: "UI/UX Design", bgImage: "/work-4.png" ,   category: "design", Link:"https://www.behance.net/gallery/191071777/V-Hire-Taxi-Service-Mobile-App-Interface-Designs" },
+  { title: "Chefs Touch Catering Service", description: "Graphic Design (Logo)", bgImage: "/work-5.png" ,   category: "design", Link:"https://www.behance.net/gallery/220061385/Chefs-Touch-Catering-Service-Logo-Design" },
+  { title: "Students Management System ", description: "Web Development (MERN)", bgImage: "/work-6.png" ,   category: "development", Link:"https://students-management-system-mern-stack.netlify.app/" },
+  // { title: "Figma Design", description: "UI Prototyping", bgImage: "/images/img6.png" ,   category: "design", Link:"https://zestrice-restaurant.netlify.app/" },
+>>>>>>> c1d51ae (update)
 ];
 
 
@@ -150,18 +168,37 @@ export const infoList = [
     title: 'Education',
     description: 'GCE Advanced Level, Vilayaya National School',
   },
+<<<<<<< HEAD
+=======
+    {
+    icon: assets.code_icon,
+    iconDark: assets.code_icon_dark,
+    title: 'Experience ',
+    description: 'UI/UX Design Internship (Virtual) at CodSoft',
+  },
+>>>>>>> c1d51ae (update)
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: 'Experience ',
     description: 'UI/UX Designer & Front-End Developer Internship – Creative-2 (Pvt) Ltd',
   },
+<<<<<<< HEAD
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: 'Experience ',
     description: 'UI/UX Design Internship (Virtual) at CodSoft',
   },
+=======
+    {
+    icon: assets.code_icon,
+    iconDark: assets.code_icon_dark,
+    title: 'Experience ',
+    description: 'Graphic Designer & Web Developer – IBMC Publications (Pvt) Ltd',
+  },
+
+>>>>>>> c1d51ae (update)
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,

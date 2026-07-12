@@ -163,12 +163,6 @@ export const infoList = [
     title: 'Experience ',
     description: 'UI/UX Designer & Front-End Developer Internship – Creative-2 (Pvt) Ltd',
   },
-{
-    icon: assets.code_icon,
-    iconDark: assets.code_icon_dark,
-    title: 'Experience ',
-    description: 'UI/UX Design Internship (Virtual) at CodSoft',
-  },
     {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,

@@ -10,8 +10,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - Chamith S Kulathunga",
-  description: "Explore the portfolio of Chamith Sadeepa Kulathunga, an ICT undergraduate skilled in UI/UX design and front-end development.",
+  title: "Chamith Sadeepa Kulathunga | BICT (Hons) Graduate & Digital Designer",
+description: "Explore Chamith Sadeepa Kulathunga's portfolio showcasing expertise in web development, UI/UX design, and graphic design, creating innovative and user-focused digital experiences.",
   icon: "/codesoft.png",
 };
 

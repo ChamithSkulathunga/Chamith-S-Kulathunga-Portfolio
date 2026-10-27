@@ -112,6 +112,8 @@ export const assets = {
 // ]
 
 export const workData = [
+  { title: "Tns Prestige - Vehicle rent website ", description: "Web Development ", bgImage: "/work-16.png" , category: "development", Link:"https://tnsprestige.com/" },
+  { title: "IBMC Eduhub - Toys website ", description: "Web Development ", bgImage: "/work-15.png" , category: "development", Link:"https://www.ibmceduhub.lk/" },
 { title: "BlogNest - Blogs website ", description: "Web Development ", bgImage: "/work-14.png" , category: "development", Link:"https://webblognest.netlify.app/" },
   { title: "eMartX - Fashion Store ", description: "Web Development ", bgImage: "/work-12.png" ,category: "development", Link:"https://emartx.netlify.app/" },
   { title: "HavenHue - Real Estate  ", description: "Web Development ", bgImage: "/work-13.png" ,category: "development", Link:"https://havenhue.netlify.app/" },
